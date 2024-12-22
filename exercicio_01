@@ -1,0 +1,11 @@
+ #include <stdio.h>
+ #include <math.h>
+
+ int main(){
+    printf("Digite os coeficientes da equação do segundo grau(a,b,c):");
+    scanf("%lf %lf %f", &a, &b, &c);
+
+    delta = pow(b,2)- 4 * a *c;
+
+    printf(" O valor de delta e: %.2lf\n", delta);
+ }
